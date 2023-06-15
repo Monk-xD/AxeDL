@@ -14,9 +14,4 @@ async def ping_pong(client: Client, m: Message):
         f"{emoji.PING_PONG} `PONG!!`\n"
         f"⚡️ `{delta_ping * 1000:.3f} ms`"
     )
-
-   
-
-
-
-
+ 
