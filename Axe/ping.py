@@ -3,9 +3,9 @@ from datetime import datetime
 
 from pyrogram.types import *
 from pyrogram import Client, filters, emoji
+from Axe import *
 
-
-@Client.on_message(filters.command("ping"))
+@AxeDL.on_message(filters.command("ping"))
 async def ping_pong(client: Client, m: Message):
     start = time()
     m_reply = await m.reply_text("**checking ping ⚡**")
