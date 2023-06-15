@@ -5,8 +5,6 @@ from pyrogram import Client
 API_ID = 
 API_HASH = 
 TOKEN = 
-LOG = 
-
 
 AxeDL = Client(
   "AxeDL",
